@@ -187,7 +187,7 @@ sources to run this benchmark.
 
 ##  Details about each benchmark
 
-### Training a transformers langauge model
+### Training a transformers language model
 
 For this benchmark, we copied the model from MLX's [TransformerLM example](https://github.com/ml-explore/mlx-examples/blob/a7598e9456c6455a07ff4905712c2ea3cfcd52db/transformer_lm/main.py#L15).
 For the PyTorch version, we utilized the closest functions available to properly replicate the model in another framework.
