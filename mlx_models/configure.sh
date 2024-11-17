@@ -21,7 +21,7 @@ pushd mlx-examples
 git checkout bd6d910ca3744d75bf704e6e7039f97f71014bd5
 
 python3 llms/llama/convert.py --torch-path ../../../pytorch_models/TinyLlama-1.1B-Chat-v1.0 --model-name tiny_llama --dtype float32 --mlx-path ../../tiny_llama
-python3 whisper/convert.py --torch-name-or-path tiny --dtype float32 --mlx-path ../../whisper_tiny_fp32
+python3 whisper/convert.py --torch-name-or-path tiny.en --dtype float32 --mlx-path ../../whisper_tiny_fp32
 
 popd
 popd
